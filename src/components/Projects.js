@@ -4,6 +4,16 @@ import ProjectCard from "./ProjectCard"
 const Projects = React.forwardRef((props, ref) => {
   const projects = [
     {
+      title: "Social Media App",
+      description:
+        "Full-featured social media platform with posts, comments, likes, and real-time messaging functionality.",
+      technologies: ["MongoDB", "Node.js", "Socket.io", "Express", "Tailwind CSS", "TypeScript", "Next.js"],
+      image: "/Screenshot 2025-08-08 at 00.36.10.png",
+      github: "https://github.com/TamiloreA/vybe-social-media",
+      live: "https://vybe-social-media-4jtt.vercel.app",
+      icon: "fas fa-users",
+    },
+    {
       title: "E-Commerce Platform",
       description:
         "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
@@ -32,16 +42,6 @@ const Projects = React.forwardRef((props, ref) => {
       github: "#",
       live: "#",
       icon: "fas fa-cloud-sun",
-    },
-    {
-      title: "Social Media App",
-      description:
-        "Full-featured social media platform with posts, comments, likes, and real-time messaging functionality.",
-      technologies: ["React", "Firebase", "Node.js", "Socket.io", "Express"],
-      image: "/placeholder.svg?height=300&width=400",
-      github: "#",
-      live: "#",
-      icon: "fas fa-users",
     },
     {
       title: "Portfolio Website",
