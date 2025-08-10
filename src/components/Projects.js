@@ -14,6 +14,16 @@ const Projects = React.forwardRef((props, ref) => {
       icon: "fas fa-users",
     },
     {
+      title: "Water Intake Tracker",
+      description:
+        "Full-stack hydration tracker built with Next.js. Users set a daily goal, log intake with one tap, and get instant feedback against World Health Organization guidance. Data persists in MongoDB with a clean, mobile-first UI.",
+      technologies: ["Next.js (App Router + API Routes)", "React", "MongoDB", "Tailwind CSS", "TypeScript", "Zod", "Prisma"],
+      image: "/Screenshot 2025-08-10 at 17.16.08.png",
+      github: "https://github.com/TamiloreA/water-intake-tracker",
+      live: "https://water-intake-tracker-self.vercel.app",
+      icon: "fas fa-tint"
+    },
+    {
       title: "E-Commerce Platform",
       description:
         "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
@@ -32,16 +42,6 @@ const Projects = React.forwardRef((props, ref) => {
       github: "#",
       live: "#",
       icon: "fas fa-tasks",
-    },
-    {
-      title: "Weather Dashboard",
-      description:
-        "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      technologies: ["JavaScript", "API Integration", "CSS3", "Chart.js"],
-      image: "/placeholder.svg?height=300&width=400",
-      github: "#",
-      live: "#",
-      icon: "fas fa-cloud-sun",
     },
     {
       title: "Portfolio Website",
